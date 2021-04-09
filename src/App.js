@@ -27,12 +27,12 @@ function App(props) {
   );
 }
 
-const mapStateToProps = (state) => ({
-    cards: state.cards.cards
-})
+// const mapStateToProps = (state) => ({
+//     cards: state.cards.cards
+// })
 
 const mapDispatchToProps = (dispatch) => ({
     getCards: () => dispatch(getCards()),
 })
 
-export default connect(mapStateToProps, mapDispatchToProps)(App);
+export default connect(null, mapDispatchToProps)(App);
