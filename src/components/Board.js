@@ -7,8 +7,6 @@ function Board(props) {
 
     const {cards} = props;
 
-    console.log(cards)
-
     const [modal, setModal] = useState(false);
     const toggle = () => setModal(!modal);
 
@@ -44,10 +42,6 @@ function Board(props) {
                                 toggle={toggle}/>
                             }
                         </tr>
-
-                    // <li key={el._id} className="mb-3">
-                    //     <button type="button" className="btn btn-outline-primary btn-sm">Delete</button>
-                    // </li>
                 )}
                 </tbody>
             </table>
