@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/fe10-redux-ver.3/static/css/main.6dea0f05.chunk.css",
+    "main.js": "/fe10-redux-ver.3/static/js/main.e1e807ff.chunk.js",
+    "main.js.map": "/fe10-redux-ver.3/static/js/main.e1e807ff.chunk.js.map",
+    "runtime-main.js": "/fe10-redux-ver.3/static/js/runtime-main.fd5614e5.js",
+    "runtime-main.js.map": "/fe10-redux-ver.3/static/js/runtime-main.fd5614e5.js.map",
+    "static/js/2.9c91d6a1.chunk.js": "/fe10-redux-ver.3/static/js/2.9c91d6a1.chunk.js",
+    "static/js/2.9c91d6a1.chunk.js.map": "/fe10-redux-ver.3/static/js/2.9c91d6a1.chunk.js.map",
+    "static/js/3.2994a1cc.chunk.js": "/fe10-redux-ver.3/static/js/3.2994a1cc.chunk.js",
+    "static/js/3.2994a1cc.chunk.js.map": "/fe10-redux-ver.3/static/js/3.2994a1cc.chunk.js.map",
+    "index.html": "/fe10-redux-ver.3/index.html",
+    "static/css/main.6dea0f05.chunk.css.map": "/fe10-redux-ver.3/static/css/main.6dea0f05.chunk.css.map",
+    "static/js/2.9c91d6a1.chunk.js.LICENSE.txt": "/fe10-redux-ver.3/static/js/2.9c91d6a1.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.fd5614e5.js",
+    "static/js/2.9c91d6a1.chunk.js",
+    "static/css/main.6dea0f05.chunk.css",
+    "static/js/main.e1e807ff.chunk.js"
+  ]
+}
