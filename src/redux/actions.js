@@ -3,7 +3,7 @@ import axios from "axios";
 
 export function getCards() {
     return (dispatch) => {
-        axios.get('http://nazarov-kanban-server.herokuapp.com/card')
+        axios.get('https://nazarov-kanban-server.herokuapp.com/card')
             .then(res => {
                 dispatch({
                     type: 'GET_CARDS',
@@ -16,7 +16,7 @@ export function getCards() {
 
 export function addCard(newTaskObject) {
     return (dispatch) => {
-        axios.post('http://nazarov-kanban-server.herokuapp.com/card', newTaskObject)
+        axios.post('https://nazarov-kanban-server.herokuapp.com/card', newTaskObject)
             .then(res => {
                 dispatch(getCards())
                 // dispatch({
@@ -30,7 +30,7 @@ export function addCard(newTaskObject) {
 
 export function deleteCard(taskId) {
     return (dispatch) => {
-        axios.delete(`http://nazarov-kanban-server.herokuapp.com/card/${taskId}`)
+        axios.delete(`https://nazarov-kanban-server.herokuapp.com/card/${taskId}`)
             .then(res => {
                 dispatch(getCards())
                 // dispatch({
